@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: Colfax-Bold;
-    src: url("font/Colfax/Colfax-Bold.otf") format("opentype");
+    src: url("/font/Colfax/Colfax-Bold.otf") format("opentype");
   }
   
   @font-face {
     font-family: Colfax-Regular;
-    src: url("font/Colfax/Colfax-Regular.otf") format("opentype");
+    src: url("/font/Colfax/Colfax-Regular.otf") format("opentype");
   }
   
   @font-face {
     font-family: Colfax-Medium;
-    src: url("font/Colfax/Colfax-Medium.otf") format("opentype");
+    src: url("/font/Colfax/Colfax-Medium.otf") format("opentype");
   }
   
   ::-webkit-input-placeholder { 
@@ -28,7 +28,7 @@
   }
   
   body {
-    background-image: url('img/bg.png');
+    background-image: url('/img/bg.png');
     color: #ffffff !important;
     background-repeat: no-repeat;
     background-size: cover;
