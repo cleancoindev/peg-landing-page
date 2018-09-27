@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(dir + '/index.html'));
 });
 
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 
 app.listen(port, function () {
   console.log('Example app listening on port '+port)

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PEG Network</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+
+<body>
+    <div class="container-fluid h-border-light d-sm-block d-md-none d-lg-none">
+        <header class="header py-4">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-6 pt-1">
+                    <a class="peg-logo-h" href="/">
+                        <img src="img/logo-peg-h.png" alt="PEG Logo">
+                    </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <a class="telegram-logo" target="_blank" href="https://t.me/pegnetwork">
+                        <img src="img/logo-telegram.png" alt="Telegram Logo">
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container d-none d-md-block">
+        <header class="header py-5">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-6 pt-1">
+                    <a class="peg-logo-h" href="/">
+                        <img src="img/logo-peg-h.png" alt="PEG Logo">
+                        <span class="d-none d-md-block">PEG Network</span>
+                    </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <a class="telegram-logo" target="_blank" href="https://t.me/pegnetwork">
+                        <img src="img/logo-telegram.png" alt="Telegram Logo">
+                        <span class="d-none d-md-block">Telegram</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main role="main" class="container py-4 px-4">
+        <div class="row">
+            <div class="col text-center logo-p">
+                <img class="py-2" src="img/logo-peg-p.png" alt="">
+                <div class="company-name py-2 mt-2">PEG NETWORK</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center features-p">
+                <div class="py-4">STABILITY, LIQUIDITY, SIMPLICITY</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-2 d-sm-block"></div>
+            <div class="col-lg-6 col-md-8 col-sm-12 text-center description-p">
+                <p class="px-3 text-center">Create your own decentralized stable token pegged to any currency,
+                    commodity or
+                    underlying asset.</p>
+            </div>
+            <div class="col-lg-3 col-md-2 d-sm-block"></div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center py-4 my-2">
+                <span class="coming-soon">COMING SOON</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-1 d-sm-block"></div>
+            <div class="col-lg-6 col-md-9 col-sm-12 subscription-form text-center py-4">
+
+                <button id="open-popup" type="button" class="btn btn-primary">SUBSCRIBE TO OUR MAILING LIST</button>
+
+                <!-- <form novalidate action="https://network.us18.list-manage.com/subscribe/post?u=0071de5af7cca3c518cdf3fb3&amp;id=f2684c4290" method="post" class="row" id="subscription-form">
+                    <div class="form-group col-lg-8 col-md-9 col-sm-12">
+                        <input required validate name="email" type="email" class="form-control" placeholder="Enter your Email">
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-12">
+                        <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                    </div>
+                </form> -->
+            </div>
+            <div class="col-lg-3 col-md-2 d-sm-block"></div>
+        </div>
+
+        <div class="row">
+            <div class="col price py-4">
+                <div class="text-center">
+                    <img src="img/circle.png" alt="">
+                    <span class="caption">PEG PRICE:</span>
+                    <span class="value">$0.25</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    
+    <script type="text/javascript">
+        function showMailingPopUp() {
+            window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"0071de5af7cca3c518cdf3fb3","lid":"f2684c4290","uniqueMethods":true})})
+            document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";                  
+            document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; 
+
+            //window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"0071de5af7cca3c518cdf3fb3","lid":"f2684c4290","uniqueMethods":true}) })
+        }
+
+        document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+    </script>
+
+</body>
+
+</html>
