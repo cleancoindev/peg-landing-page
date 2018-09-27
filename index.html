@@ -110,7 +110,8 @@
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
         data-dojo-config="usePlainJson: true, isDebug: false"></script>
     <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         function showMailingPopUp() {
@@ -132,7 +133,7 @@
         };
 
         function formatCurrency(n) {
-            if(isNaN(n))
+            if (isNaN(n))
                 n = 0;
             var formatter = new Intl.NumberFormat('en-US', {
                 style: 'currency',
@@ -1297,19 +1298,30 @@
             var converterInstance = new web3.eth.Contract(ConverterABI, converterAddress);
             var tokenPEGInstance = new web3.eth.Contract(TokenABI, PEG_address);
 
-            converterInstance.methods.getConnectorBalance(BNT_address).call()
-                .then(res => {
-                    tokenPEGInstance.methods.totalSupply().call()
-                        .then(total => {
-                            let totalSupply = (total / 1e18);
-                            $.get('https://min-api.cryptocompare.com/data/price?fsym=BNT&tsyms=USD,ETH', {},
-                                (data) => {
-                                    let cap = (res / 1e18 / 0.07) * data.USD;
-                                    let price = formatCurrency((cap / totalSupply));
-                                    $(".price").find(".value").html(price);
-                                });
-                        });
-                });
+            function getPrice() {
+                var totalSupply = 0;
+                var conBalance = 0;
+                converterInstance.methods.getConnectorBalance(BNT_address).call()
+                    .then(res => {
+                        conBalance = res;
+                        return tokenPEGInstance.methods.totalSupply().call();
+                    })
+                    .then(total => {
+                        totalSupply = (total / 1e18);
+                        $.get('https://min-api.cryptocompare.com/data/price?fsym=BNT&tsyms=USD,ETH', {},
+                            (data) => {
+                                let cap = (conBalance / 1e18 / 0.07) * data.USD;
+                                let price = formatCurrency((cap / totalSupply));
+                                $(".price").find(".value").html(price);
+                                setTimeout(getPrice, 30000);
+                            });
+                    })
+                    .catch(err => {
+                        setTimeout(getPrice, 30000);
+                    })
+            }
+
+            getPrice();
 
         })
     </script>

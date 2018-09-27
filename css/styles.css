@@ -1,165 +1,166 @@
 
 @font-face {
-    font-family: Colfax-Bold;
-    src: url("/font/Colfax/Colfax-Bold.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: Colfax-Regular;
-    src: url("/font/Colfax/Colfax-Regular.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: Colfax-Medium;
-    src: url("/font/Colfax/Colfax-Medium.otf") format("opentype");
-  }
-  
-  ::-webkit-input-placeholder { 
-    color: #ffffff !important;
-  }
-  :-ms-input-placeholder { 
-    color: #ffffff !important;
-  }
-  ::-moz-placeholder { 
-    color: #ffffff !important;
-  }
-  :-moz-placeholder {
-    color: #ffffff !important;
-  }
-  
-  body {
-    background-image: url('/img/bg.png');
-    color: #ffffff !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-position: center;
-  }
-  
-  .header {
-    line-height: 1;
-  }
-  
-  .header .peg-logo-h span, .header .telegram-logo span {
-    margin-left: 10px;
-    display: inline-block !important;
-  }
-  
-  .header .peg-logo-h {
-    font-family: Colfax-Medium;
-    font-size: 18px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
-  }
-  
-  .header .telegram-logo {
-    font-family: Colfax-Medium;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  
-  .header .peg-logo-h:hover, .header .telegram-logo:hover {
-    text-decoration: none;
-  }
-  
-  .h-border-light {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-  }
-  
-  .logo-p .company-name {
-    font-family: Colfax-Bold;
-    font-size: 22px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-  }
-  
+  font-family: Colfax-Bold;
+  src: url("/font/Colfax/Colfax-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Colfax-Regular;
+  src: url("/font/Colfax/Colfax-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Colfax-Medium;
+  src: url("/font/Colfax/Colfax-Medium.otf") format("opentype");
+}
+
+::-webkit-input-placeholder { 
+  color: #ffffff !important;
+}
+:-ms-input-placeholder { 
+  color: #ffffff !important;
+}
+::-moz-placeholder { 
+  color: #ffffff !important;
+}
+:-moz-placeholder {
+  color: #ffffff !important;
+}
+
+body {
+  background-image: url('/img/bg.png');
+  background-color: #587B97;
+  color: #ffffff !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+  background-position: center;
+}
+
+.header {
+  line-height: 1;
+}
+
+.header .peg-logo-h span, .header .telegram-logo span {
+  margin-left: 10px;
+  display: inline-block !important;
+}
+
+.header .peg-logo-h {
+  font-family: Colfax-Medium;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.header .telegram-logo {
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.header .peg-logo-h:hover, .header .telegram-logo:hover {
+  text-decoration: none;
+}
+
+.h-border-light {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.logo-p .company-name {
+  font-family: Colfax-Bold;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+.features-p {
+  font-family: Colfax-Bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.description-p p {
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.coming-soon {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-radius: 100px;
+  font-family: Colfax-Bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 18px 25px
+}
+
+.subscription-form input, .subscription-form input:focus, .subscription-form input:active {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100px;
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  padding: 23px;
+}
+
+.subscription-form .btn-primary, .subscription-form .btn-primary:hover, .subscription-form .btn-primary:active {
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  border-radius: 100px !important;
+  font-family: Colfax-Medium;
+  font-size: 13px;
+  color: #FFFFFF !important;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 14px 30px;
+  background: transparent !important;
+}
+
+.price .caption {
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.price .value {
+  font-family: Colfax-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.price img {
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+
+@media (min-width: 768px) {
   .features-p {
-    font-family: Colfax-Bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .logo-p .company-name {
     font-size: 24px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 32px;
+    letter-spacing: 2px;
   }
-  
   .description-p p {
-    font-family: Colfax-Regular;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 30px;
-  }
-  
-  .coming-soon {
-    background: rgba(255, 255, 255, 0.06) !important;
-    border-radius: 100px;
-    font-family: Colfax-Bold;
-    font-size: 13px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 18px 25px
-  }
-  
-  .subscription-form input, .subscription-form input:focus, .subscription-form input:active {
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.25);
-    border-radius: 100px;
-    font-family: Colfax-Regular;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    padding: 23px;
-  }
-  
-  .subscription-form .btn-primary, .subscription-form .btn-primary:hover, .subscription-form .btn-primary:active {
-    border: 2px solid rgba(255, 255, 255, 0.75) !important;
-    border-radius: 100px !important;
-    font-family: Colfax-Medium;
-    font-size: 13px;
-    color: #FFFFFF !important;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 14px 30px;
-    background: transparent !important;
-  }
-  
-  .price .caption {
-    font-family: Colfax-Medium;
     font-size: 16px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
   }
-  
-  .price .value {
-    font-family: Colfax-Regular;
-    font-size: 16px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
-  }
-  
-  .price img {
-    margin-right: 10px;
-    margin-top: -2px;
-  }
-  
-  
-  @media (min-width: 768px) {
-    .features-p {
-      font-size: 28px;
-      letter-spacing: 2px;
-    }
-    .logo-p .company-name {
-      font-size: 24px;
-      letter-spacing: 2px;
-    }
-    .description-p p {
-      font-size: 16px;
-    }
-  }
+}
