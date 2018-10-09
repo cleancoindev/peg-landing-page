@@ -105,6 +105,14 @@
     text-align: center;
     padding: 18px 25px
   }
+  .whitepaper {
+    font-family: Colfax-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 18px 25px
+  }
   
   .subscription-form input, .subscription-form input:focus, .subscription-form input:active {
     background: transparent;
