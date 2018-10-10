@@ -15,38 +15,123 @@
   }
   
   ::-webkit-input-placeholder { 
-    color: #ffffff !important;
+    color: #09203F !important;
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
   :-ms-input-placeholder { 
-    color: #ffffff !important;
+    color: #09203F !important;
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
   ::-moz-placeholder { 
-    color: #ffffff !important;
+    color: #09203F !important;
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
   :-moz-placeholder {
-    color: #ffffff !important;
+    color: #09203F !important;
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
   
   body {
-    background-image: url('/img/bg.png');
-    background-color: #587B97;
+    background-color: #ffffff !important;
+    color: #09203F;
+  }
+  
+  .btn.btn-white {
+    background: #FFFFFF;
+    font-family: Colfax-Medium;
+    font-size: 13px;
+    color: #09203F;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: .75rem 1rem !important;
+  }
+
+  .btn.btn-dark {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #45607a !important;
     color: #ffffff !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-position: center;
+  }
+
+  .btn.btn-purple {
+    background-color: #09203F !important;
+    border-color: #09203F !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .btn.btn-grey {
+    font-size: 16px;
+    color: #09203F !important;
+    background: rgba(9,32,63,0.06);
+    border-color: #f1f2f4 !important;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+
+  section:first-child {
+    margin-top: 0rem !important;
+  }
+
+  section .div-texts p {
+    font-family: Colfax-Regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 34px;
+  }
+
+  section .div-texts p span {
+    font-family: Colfax-Medium;
+  }
+
+  h4.section-title {
+    text-align: center;
+    font-family: Colfax-Medium;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  @media (min-width: 992px) {
+    h4.section-title {
+      text-align: left;
+      font-size: 32px;
+      padding-top: 3rem !important;
+      padding-bottom: 1rem !important;
+    }
+  }
+
+  /* start section 1 */
+  #section1 {
+    background-image: url('/img/bg.png');
+  }
+
+  #section1 .btn-links .btn-white, #section1 .btn-links .btn-dark {
+    font-size: 16px;
   }
   
-  .header {
+  #section1 .header {
     line-height: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   
-  .header .peg-logo-h span, .header .telegram-logo span {
+  #section1 .header .navbar-brand span{
     margin-left: 10px;
     display: inline-block !important;
   }
   
-  .header .peg-logo-h {
+  #section1 .header .navbar-brand {
     font-family: Colfax-Medium;
     font-size: 18px;
     color: #FFFFFF;
@@ -54,113 +139,503 @@
     text-align: center;
   }
   
-  .header .telegram-logo {
-    font-family: Colfax-Medium;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  
-  .header .peg-logo-h:hover, .header .telegram-logo:hover {
+  #section1 .header .navbar-brand:hover {
     text-decoration: none;
   }
-  
-  .h-border-light {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-  }
-  
-  .logo-p .company-name {
-    font-family: Colfax-Bold;
-    font-size: 22px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-  }
-  
-  .features-p {
-    font-family: Colfax-Bold;
-    font-size: 24px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 32px;
-  }
-  
-  .description-p p {
-    font-family: Colfax-Regular;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 30px;
-  }
-  
-  .coming-soon {
-    background: rgba(255, 255, 255, 0.06) !important;
-    border-radius: 100px;
-    font-family: Colfax-Bold;
-    font-size: 13px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 18px 25px
-  }
-  
-  .subscription-form input, .subscription-form input:focus, .subscription-form input:active {
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.25);
-    border-radius: 100px;
-    font-family: Colfax-Regular;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 2px;
-    padding: 23px;
-  }
-  
-  .subscription-form .btn-primary, .subscription-form .btn-primary:hover, .subscription-form .btn-primary:active {
-    border: 2px solid rgba(255, 255, 255, 0.75) !important;
-    border-radius: 100px !important;
+
+  #section1 .header .navbar-dark .navbar-nav .nav-link {
     font-family: Colfax-Medium;
     font-size: 13px;
-    color: #FFFFFF !important;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 14px 30px;
-    background: transparent !important;
-  }
-  
-  .price .caption {
-    font-family: Colfax-Medium;
-    font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
+    letter-spacing: 1px;
   }
   
-  .price .value {
+  #section1 .navbar-dark .navbar-toggler {
+    border: none;
+    margin-top: -10px;
+  }
+
+  #section1 .navbar-dark .navbar-toggler-icon {
+    width: 27px;
+    height: 18px;
+    background-image: url('/img/toggler.png');
+  }
+
+  #section1 .features-p {
+    font-family: Colfax-Bold;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #section1 .description-p p {
     font-family: Colfax-Regular;
     font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 2px;
-    text-align: center;
+    letter-spacing: 1px;
+    line-height: 34px;
   }
-  
-  .price img {
-    margin-right: 10px;
-    margin-top: -2px;
+
+  #section1 #telegram-link {
+    position: absolute;
+    right: 0px;
+    margin-top: 50px;
+    margin-top: -30px;
   }
-  
-  
+
   @media (min-width: 768px) {
-    .features-p {
-      font-size: 28px;
+    #section1 .features-p {
+      font-size: 38px;
       letter-spacing: 2px;
+      line-height: 1px;
+      padding-bottom: 3rem !important;
     }
-    .logo-p .company-name {
-      font-size: 24px;
-      letter-spacing: 2px;
-    }
-    .description-p p {
-      font-size: 16px;
+    #section1 header.header {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
     }
   }
+
+  @media (min-width: 480px) {
+    #section1 #telegram-link {
+      margin-top: -10px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    #section1 {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  /* end section 1*/
+
+
+  /* start section 2 */
+
+  #section2 img {
+    max-width: 100%;
+  }
+
+  #section2 .symbol {
+    text-align: center;
+  }
+
+  @media (min-width: 992px) {
+    #section2 .symbol {
+      text-align: left;
+    }
+    #section2 img {
+      max-width: 100%;
+      margin-left: -50px;
+      margin-top: -25px;
+    }  
+  }
+
+  /* end section 2 */
+
+  /* start section 3 */
+
+    #section3 .card {
+      margin-bottom: 3rem;
+      border: none;
+      -webkit-box-shadow: 1px 4px 80px 0px rgba(0,0,0,0.05);
+      -moz-box-shadow: 1px 4px 80px 0px rgba(0,0,0,0.05);
+      box-shadow: 1px 4px 80px 0px rgba(0,0,0,0.05);
+    }
+
+    #section3 .card:last-child {
+      margin-bottom: 1rem !important;
+    }
+
+    #section3 .card .item-title {
+      font-family: Colfax-Medium;
+      font-size: 22px;
+      letter-spacing: 1px;
+      text-align: center;
+      line-height: 32px;
+      padding: 1rem 2rem 0rem 2rem;
+    }
+
+    #section3 img {
+      max-width: 100%;
+    }
+
+    #section3 .symbol {
+      text-align: center;
+      padding: 4rem 2rem 2rem 2rem;
+    }
+
+    #section3 .hint {
+      text-align: center;
+      padding: 1rem 0rem;
+      margin-top: -3px;
+    }
+
+    #section3 .hint img {
+      margin-left: 2px;
+      margin-top: -2px;
+    }
+
+    #section3 .hint .badge {
+      font-family: Colfax-Medium;
+      font-size: 8px;
+      color: #09203F;
+      letter-spacing: 1px;
+      background: rgba(9,32,63,0.06);
+      border-radius: 16px;
+      padding: 10px 17px;
+    }
+
+    @media (min-width: 768px) {
+      #section3 .card .item-title {
+        font-size: 24px;
+        text-align: left;
+        padding: 1rem 0rem;
+        margin: 0;
+      }
+      #section3 .hint {
+        text-align: left;
+      }
+      #section3 .hint .badge {
+        font-size: 10px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      #section3 .symbol {
+        text-align: center;
+        padding: 5rem 2rem 2rem 2rem;
+      }
+
+      #section3 img {
+        max-width: 100%;
+        margin-left: -50px;
+        margin-top: -25px;
+      }  
+    }
+
+  /* end section 3 */
+
+  /* start section 4*/
+  #section4 .item img {
+    max-width: 100%;
+    height: 165px;
+  }
+  #section4 .item {
+    margin-top: 5rem;
+  }
+  #section4 .item:first-child {
+    margin-top: 3rem !important;
+  }
+  #section4 .img-caption {
+    font-family: Colfax-Medium;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 1rem;
+  }
+
+  #section4 .item:first-child .img-caption{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  #section4 .item:nth-child(2) .img-caption{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  #section4 .item:nth-child(3) .img-caption{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  #section4 .item:nth-child(4) .img-caption{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #section4 .item:nth-child(3) .img-caption {
+    margin-top: 3rem !important;
+  }
+
+  #section4 .item img {
+    margin-left: 35px;
+  }
+
+  #section4 .item:nth-child(4) img{
+    margin-left: 0 !important;
+  }
+
+  @media (min-width: 768px) {
+    #section4 .item {
+      margin-top: 3rem !important;
+    }
+    #section4 .item:nth-child(3) img {
+      margin-top: -2rem;
+    }
+    #section4 .item:nth-child(3) .img-caption {
+      margin-top: 3rem !important;
+    }
+
+    #section4 .item .img-caption {
+      font-size: 20px;
+    }
+
+  }
+
+  @media (min-width: 480px) {
+    #section4 .img-caption {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  /* end section 4*/
+
+  
+  /* start section 5*/
+  #section5 {
+    padding-top: 2rem;
+    background-image: url('/img/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #section5 .item h4, #section5 .item .number {
+    text-align: center;
+  }
+
+  #section5 .item h4 {
+    font-family: Colfax-Medium;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #section5 .item p {
+    padding: 1rem 2rem;
+    font-family: Colfax-Regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 34px;
+  }
+
+  #section5 #imac {
+    position: absolute;
+    right: 0;
+    top: 202rem;
+  }
+
+  @media (min-width: 992px) {
+    #section5 .item h4, #section5 .item p {
+      text-align: left;
+      padding-left: 0 !important;
+    }
+    #section5 .item:first-child {
+      margin-top: 3rem !important;
+    }
+  }
+  /* end section 5 */
+
+  /* start section 6 */
+
+  #section6 .item {
+    margin-top: 3rem;
+  }
+
+  #section6 img {
+    max-width: 100%;
+  }
+
+  #section6 .symbol {
+    text-align: center;
+  }
+
+  @media (min-width: 992px) {
+    #section6 .symbol {
+      text-align: left;
+    }
+    #section6 .symbol.pegusd {
+      text-align: right !important;
+    }
+    #section6 .item:first-child img {
+      max-width: 100%;
+      margin-left: -50px;
+      margin-top: -35px;
+    }  
+    #section6 img#pegusd {
+      max-width: 100%;
+      margin-left: 0px;
+      margin-right: -42px;
+      margin-top: -35px;
+    }  
+  }
+
+  /* end section 6 */
+
+  /* start section 7 */
+  #section7 p {
+    margin-top: 2rem;
+  }
+  #section7 .item img {
+    max-width: 100%;
+    width: 112px;
+  }
+  #section7 .item {
+    text-align: center
+  }
+  #section7 .item .name {
+    font-family: Colfax-Medium;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  #section7 .item .position {
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  @media (min-width: 768px) {
+    #section7 .item .name {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  
+    #section7 .item .position {
+      font-size: 16px;
+      line-height: 34px;
+    }
+
+    #section7 .item img {
+      max-width: 100%;
+      width: 160px;
+    }
+  }
+
+  /* end section 7 */
+
+  /* start section 8 */
+
+  #section8 {
+    background-image: url('/img/bg3.png');
+    margin-bottom: 5rem;
+  }
+
+  #section8 .more {
+    padding-bottom: 4rem;
+  }
+
+  #section8 h4.section-title {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #section8 label {
+    font-family: Colfax-Medium;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  #section8 input {
+    height: 3rem;
+    border: solid 1px #f7f7f7;
+  }
+
+  #section8 .border-bottom {
+    border-width: 2px !important;
+  }
+
+  #section8 .social-media-links {
+    text-align: center;
+  }
+
+  #section8 .social-media label {
+    margin-top: 2rem;
+  }
+  
+  #section8 .footer-logo, #section8 .footer-logo:hover, #section8 .footer-logo:visited {
+    text-decoration: none;
+    font-family: Colfax-Bold;
+    font-size: 16px;
+    color: #09203F !important;
+    letter-spacing: 1px;
+  }
+
+  #section8 .footer .home-link {
+    text-align: center;
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #section8 .footer .copyright {
+    font-family: Colfax-Regular;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  #section8 .footer .links {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #section8 .footer .links a, #section8 .footer .links a:hover, #section8 .footer .links a:visited {
+    font-family: Colfax-Medium;
+    font-size: 14px;
+    color: #09203F !important;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+  @media (min-width: 992px) {
+    #section8 h4.section-title, #section8 label {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    #section8 label, #section8 .social-media-links {
+      text-align: left;
+    }
+    #section8 .social-media-links {
+      margin-top: 10px;
+    }
+    #section8 .social-media label {
+      margin-top: 0;
+    }
+    #section8 .footer {
+      margin-top: 5rem;
+    }
+    #section8 .footer .home-link {
+      text-align: left;
+      display: block;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    #section8 .footer .links {
+      margin-top: 0;
+    }
+    #section8 .footer .copyright {
+      margin-top: 10px;
+    }
+  }
+
+  /* end section 7 */
+
+

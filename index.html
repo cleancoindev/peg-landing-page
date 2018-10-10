@@ -7,28 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <link rel="shortcut icon" href="/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-	<link rel="apple-touch-icon" href="/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/favicon-144.png">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/favicon-144.png">
     <meta name="msapplication-config" content="/browserconfig.xml">
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -36,1322 +36,618 @@
 
 
 <body>
-    <div class="container-fluid h-border-light d-sm-block d-md-none d-lg-none">
-        <header class="header py-4">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-8 pt-1">
-                    <a class="peg-logo-h" href="/">
+
+    <section id="section1" class="container-fluid">
+
+        <div class="p-0 container">
+            <header class="header">
+                <nav class="pl-0 pr-0 navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand" href="/">
                         <img src="img/logo-peg-h.png" alt="PEG Logo">
-                        <span>PEG Network</span>
+                        <span>PEG NETWORK</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarsExampleDefault">
+                        <ul class="navbar-nav mx-auto text-center">
+                            <li class="nav-item mr-3 ml-3">
+                                <a class="nav-link" href="#section4">HOW IT WORKS</a>
+                            </li>
+                            <li class="nav-item mr-3 ml-3">
+                                <a class="nav-link" href="#section3">PEG ECOSYSTEM</a>
+                            </li>
+                            <li class="nav-item mr-3 ml-3">
+                                <a class="nav-link disabled" href="#section6">PEGUSD</a>
+                            </li>
+                            <li class="nav-item mr-3 ml-3">
+                                <a class="nav-link disabled" href="#section7">FOUNDATION</a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+                            <li class="nav-item">
+                                <a class="btn btn-lg btn-light btn-white" href="#">WHITEPAPER</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+
+            <div class="row">
+                <div class="col features-p mt-5">
+                    <div class="mt-3">STABILITY, LIQUIDITY, SIMPLICITY</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-9 col-lg-7 description-p">
+                    <p class="py-3">
+                        Create en ERC-20 token pegged to any currency, commodity or asset of your choice. It's as easy
+                        as depositing collateral and issuing yourself a loan of your customized asset-pegged token.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row pt-3 pb-5 btn-links">
+                <div class="col-sm-12 col-md-5 col-lg-3">
+                    <a class="btn btn-lg btn-light btn-white btn-block" href="#">CREATE PEG TOKEN</a>
+                </div>
+                <div class="col-sm-12 d-md-none">
+                    <br>
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-3">
+                    <a class="btn btn-lg btn-light btn-white btn-dark btn-block" href="#">TRADE NOW ON PEGDEX</a>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col">
+                    <a id="telegram-link" class="float-right" href="/">
+                        <img src="/img/telegram-button.png" alt="">
                     </a>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                    <!-- <a class="telegram-logo" target="_blank" href="https://t.me/pegnetwork">
-                        <img src="img/logo-telegram.png" alt="Telegram Logo">
-                    </a> -->
-                </div>
             </div>
-        </header>
-    </div>
 
-    <div class="container d-none d-md-block">
-        <header class="header py-5">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-8 pt-1">
-                    <a class="peg-logo-h" href="/">
-                        <img src="img/logo-peg-h.png" alt="PEG Logo">
-                        <span class="d-none d-md-block">PEG Network</span>
-                    </a>
-                </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                    <!-- <a class="telegram-logo" target="_blank" href="https://t.me/pegnetwork">
-                        <img src="img/logo-telegram.png" alt="Telegram Logo">
-                        <span class="d-none d-md-block">Telegram</span>
-                    </a> -->
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <main role="main" class="container py-4 px-4">
-        <div class="row">
-            <div class="col text-center logo-p">
-                <img class="py-2" src="img/logo-peg-p.png" alt="">
-                <div class="company-name py-2 mt-2">PEG NETWORK</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center features-p">
-                <div class="py-4">STABILITY, LIQUIDITY, SIMPLICITY</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-2 d-sm-block"></div>
-            <div class="col-lg-6 col-md-8 col-sm-12 text-center description-p">
-                <p class="px-3 text-center">Create your own decentralized stable token pegged to any currency,
-                    commodity or
-                    underlying asset.</p>
-            </div>
-            <div class="col-lg-3 col-md-2 d-sm-block"></div>
         </div>
 
-        <div class="row">
-            <div class="col text-center py-4 my-2">
-                <span class="coming-soon">COMING SOON</span>
-            </div>
-        </div>
+    </section>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-1 d-sm-block"></div>
-            <div class="col-lg-6 col-md-9 col-sm-12 subscription-form text-center py-4">
-
-                <p class="text-center">Want to learn more? Connect with us via:</p>
-
-                <a class="btn btn-primary" target="_blank" href="https://t.me/pegnetwork">Telegram</a>
-                <button id="open-popup" type="button" class="btn btn-primary">Email</button>
-                
-                <!-- <form novalidate action="https://network.us18.list-manage.com/subscribe/post?u=0071de5af7cca3c518cdf3fb3&amp;id=f2684c4290" method="post" class="row" id="subscription-form">
-                    <div class="form-group col-lg-8 col-md-9 col-sm-12">
-                        <input required validate name="email" type="email" class="form-control" placeholder="Enter your Email">
+    <section id="section2" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="symbol">
+                        <img src="/img/peg-token-symbol.png" alt="">
                     </div>
-                    <div class="col-lg-4 col-md-3 col-sm-12">
-                        <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
-                    </div>
-                </form> -->
-            </div>
-            <div class="col-lg-3 col-md-2 d-sm-block"></div>
-        </div>
-
-        <div class="row">
-            <div class="col price py-4">
-                <div class="text-center">
-                    <img src="img/circle.png" alt="">
-                    <span class="caption">PEG PRICE:</span>
-                    <span class="value">loading...</span>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 div-texts">
+                    <h4 class="section-title">PEG TOKEN</h4>
+                    <p class="py-1">
+                        <span>PEG</span> serves as a universal collateral token used to issue and stabilize
+                        asset-pegged tokens. Any user can deposit <span>PEG</span> as a collateral into a Vault, and
+                        receive custom tokens pegged to a real-world currency, commodity, or underlying asset of their
+                        choice.
+                    </p>
+                    <p class="py-1">
+                        PEG Tokens have instant liquidity and can be convered to any ERC20 token via <span>Bancor’s
+                            Liquidity Network</span>.
+                    </p>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-        data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    <section id="section3" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4 class="section-title">PEG USERS</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <div class="symbol">
+                                        <img src="/img/manager-icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8 div-texts">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6">
+                                            <h4 class="item-title">PEG INSTANCE MANAGERS</h4>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="hint">
+                                                <span class="badge badge-pill badge-primary">
+                                                    WHO CAN BE A PEG INSTANCE MANAGER? <img src="/img/hint-arrow-down.png"
+                                                        alt="">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-12">
+                                            <p class="py-2">
+                                                A <span>PEG Instance</span> is the management layer responsible for
+                                                setting the terms for creating
+                                                and maintaining an asset-pegged token. The <span>PEG Instance Manager</span>
+                                                will be
+                                                responsible for setting price thresholds, establishing terms of debt
+                                                and reporting updated asset price.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <div class="symbol">
+                                        <img src="/img/vault-creators-icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8 div-texts">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <h4 class="item-title">VAULT CREATORS</h4>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-8">
+                                            <div class="hint">
+                                                <span class="badge badge-pill badge-primary">
+                                                    WHY BE A VAULT CREATOR? <img src="/img/hint-arrow-down.png" alt="">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-12">
+                                            <p class="py-2">
+                                                A Vault is a user-ownrd smart contract cillateralized by PEG Network.
+                                                User can mint asset-pagged tokens by despositing collateral into a
+                                                Vault which is tied to a parent PEG istance.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <div class="symbol">
+                                        <img src="/img/trader-icon.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8 div-texts">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                            <h4 class="item-title">TRADER</h4>
+                                        </div>
+                                        <div class="col-sm-12 col-md-12">
+                                            <p class="py-2">
+                                                Instantly trade aset-pagged tokens on PEGDEX allowing for participation
+                                                in previosly inaccessibe derivative markets.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section4" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4 class="section-title">HOW IT WORKS</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center item">
+                    <img src="/img/initiate-peg-instance.png" alt="">
+                    <div class="img-caption">
+                        INITIATE A NEW PEG INSTANCE
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center item">
+                    <img src="/img/vault-icon.png" alt="">
+                    <div class="img-caption">
+                        DEPOSIT PEG INTO THE VAULT AS COLLATERAL
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center item">
+                    <img src="/img/mined-asset.png" alt="">
+                    <div class="img-caption">
+                        MIND ASSET PEGGED TOKEN
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center item">
+                    <img src="/img/trade.png" alt="">
+                    <div class="img-caption">
+                        TRADE NEWLY-MINTED TOKENS ON PEGDEX
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section5" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4 class="section-title">WHAT MAKES PEG DIFFERENT?</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 items">
+                    <div class="row item">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="number">
+                                <img src="/img/n1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-9">
+                            <h4>TOKENIZATION</h4>
+                            <p>
+                                Tokens can be pegged to any underlying currency, commodity or asset.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row item">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="number">
+                                <img src="/img/n2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-9">
+                            <h4>BORROW</h4>
+                            <p>
+                                Utilize your assets to provide yourself a stable no-internet loan that can be repaid at
+                                any
+                                time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="number">
+                                <img src="/img/n3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-9">
+                            <h4>HEDGE</h4>
+                            <p>
+                                Safely hedge your crypto against an asset-pegged token of your choice.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="number">
+                                <img src="/img/n4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-9">
+                            <h4>LIQUIDITY & TRADING</h4>
+                            <p>
+                                Instant liquidity between any token-pagged aset and any other ERC-20 token on Bancor’s
+                                Liquidity Network.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row item">
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <div class="number">
+                                <img src="/img/n5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-9">
+                            <h4>STABILITY</h4>
+                            <p>
+                                Aside from usual price stabilizing market mechanics the PEG Network contains build-in
+                                market
+                                mechanics to maintain the stability of asset - pagged tokens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="d-none d-lg-block" id="imac" src="/img/iMac.png" alt="">
+        </div>
+    </section>
+
+    <section id="section6" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row item">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="symbol">
+                        <img src="/img/peg-token-symbol2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 div-texts">
+                    <h4 class="section-title">PEG TOKEN</h4>
+                    <p class="py-1">
+                        <span>PEGUSD</span> is the first stabletoken created through the <span>PEG Network</span>
+                        stabletoken protocol. Visit <span>PEG.NETWORK</span> to explore the <span>DAPP</span> and see
+                        how it works.
+                    </p>
+                    <div class="d-block d-lg-none">
+                        <a class="mt-5 btn btn-lg btn-light btn-white btn-grey btn-block" href="#">START USING</a>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <a class="mt-2 btn btn-lg btn-light btn-white btn-grey" href="#">START USING</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-none d-lg-block">
+                <div class="row item">
+                    <div class="col-sm-12 col-md-12 col-lg-7 div-texts">
+                        <h4 class="section-title">PEGUSD TOKEN</h4>
+                        <p class="py-1">
+                            <span>PEGUSD</span> is the first stabletoken created through the <span>PEG Network</span>
+                            stabletoken protocol. Visit <span>PEG.NETWORK</span> to explore the <span>DAPP</span> and
+                            see
+                            how it works.
+                        </p>
+                        <div class="d-block d-lg-none">
+                            <a class="mt-5 btn btn-lg btn-light btn-white btn-grey btn-block" href="#">START USING</a>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <a class="mt-2 btn btn-lg btn-light btn-white btn-grey" href="#">START USING</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div class="symbol pegusd">
+                            <img id="pegusd" src="/img/peg-usd-symbol.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block d-lg-none">
+                <div class="row item">
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div class="symbol">
+                            <img src="/img/peg-usd-symbol.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 div-texts">
+                        <h4 class="section-title">PEGUSD TOKEN</h4>
+                        <p class="py-1">
+                            <span>PEGUSD</span> is the first stabletoken created through the <span>PEG Network</span>
+                            stabletoken protocol. Visit <span>PEG.NETWORK</span> to explore the <span>DAPP</span> and
+                            see
+                            how it works.
+                        </p>
+                        <div class="d-block d-lg-none">
+                            <a class="mt-5 btn btn-lg btn-light btn-white btn-grey btn-block" href="#">START USING</a>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <a class="mt-2 btn btn-lg btn-light btn-white btn-grey" href="#">START USING</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section7" class="container-fluid">
+        <div class="p-0 container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4 class="section-title">PEG FOUNDATION</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 div-texts">
+                    <p>
+                        <span>PEG Foundation</span> is a Swiss Non Profit regulated under the Swiss Financial Authority
+                        (FINMA) and based in Zurich, Switzerland with an R&D Center in City of Hayden, Idaho, USA.
+                    </p>
+                    <p>
+                        The <span>PEG Foundation</span> is dedicated to the development and promotion of the PEG
+                        Protocol, a blockchain agnostic standart for creation of non volatile, synthethic cryptographic
+                        asset, commonly referred to as Stable Coins.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3 item">
+                    <div class="profile">
+                        <img src="/img/zach.doty.png" alt="">
+                    </div>
+                    <div class="name">ZACH DOTY</div>
+                    <div class="position">CEO</div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3 item">
+                    <div class="profile">
+                        <img src="/img/christian.wu.png" alt="">
+                    </div>
+                    <div class="name">CHRISTIAN WU</div>
+                    <div class="position">VP</div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3 item">
+                    <div class="profile">
+                        <img src="/img/graham.jenkins.png" alt="">
+                    </div>
+                    <div class="name">GRAHAM JENKINS</div>
+                    <div class="position">COO</div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3 item">
+                    <div class="profile">
+                        <img src="/img/jesse.anglen.png" alt="">
+                    </div>
+                    <div class="name">JESSE ANGLEN</div>
+                    <div class="position">MARKETING</div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3 item">
+                    <div class="profile">
+                        <img src="/img/nazar.kulikov.png" alt="">
+                    </div>
+                    <div class="name">NAZAR KULIKOV</div>
+                    <div class="position">UI & UX</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section8" class="container-fluid">
+        <div class="p-0 container border-bottom">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h4 class="section-title">WANT TO KNOW MORE?</h4>
+                </div>
+            </div>
+
+            <div class="row more">
+                <div class="col-sm-12 col-md-7">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>JOIN OUR NEWS LETTER</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <button type="button" class="btn btn-lg btn-white btn-purple btn-block">JOIN NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-4 social-media">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>GET IN TOUCH</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row social-media-links">
+                        <div class="col-3">
+                            <a href="/">
+                                <img src="/img/telegram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="/">
+                                <img src="/img/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="/">
+                                <img src="/img/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="/">
+                                <img src="/img/github.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 container footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="home-link">
+                        <a class="footer-logo" href="/">
+                            <img src="img/logo.png" alt="PEG Logo">
+                            <span>PEG NETWORK</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="copyright">
+                        2018 • All Rights Reserved by PEG Network
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 links">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="/">TERMS OF USE</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="/">PRIVACY POLICY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-        function showMailingPopUp() {
-            window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-                L.start({
-                    "baseUrl": "mc.us18.list-manage.com",
-                    "uuid": "0071de5af7cca3c518cdf3fb3",
-                    "lid": "f2684c4290",
-                    "uniqueMethods": true
-                })
-            })
-            document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-            document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-
-        }
-
-        document.getElementById("open-popup").onclick = function () {
-            showMailingPopUp()
-        };
-
-        function formatCurrency(n) {
-            if (isNaN(n))
-                n = 0;
-            var formatter = new Intl.NumberFormat('en-US', {
-                style: 'currency',
-                currency: 'USD',
-                minimumFractionDigits: 2
-            });
-            return formatter.format(n);
-        }
-
-        $(document).ready(function () {
-            var converterAddress = '0x9e31b635da72ffd5f6f263be5937591730a0919b';
-            var BNT_address = '0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c';
-            var PEG_address = '0x8Ae56a6850a7cbeaC3c3Ab2cB311e7620167eAC8';
-
-            var ConverterABI = [
-                {
-                "constant": false,
-                "inputs": [{
-                    "name": "_connectorToken",
-                    "type": "address"
-                }, {
-                    "name": "_weight",
-                    "type": "uint32"
-                }, {
-                    "name": "_enableVirtualBalance",
-                    "type": "bool"
-                }, {
-                    "name": "_virtualBalance",
-                    "type": "uint256"
-                }],
-                "name": "updateConnector",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "name": "connectors",
-                "outputs": [{
-                    "name": "virtualBalance",
-                    "type": "uint256"
-                }, {
-                    "name": "weight",
-                    "type": "uint32"
-                }, {
-                    "name": "isVirtualBalanceEnabled",
-                    "type": "bool"
-                }, {
-                    "name": "isPurchaseEnabled",
-                    "type": "bool"
-                }, {
-                    "name": "isSet",
-                    "type": "bool"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_path",
-                    "type": "address[]"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "name": "_minReturn",
-                    "type": "uint256"
-                }, {
-                    "name": "_block",
-                    "type": "uint256"
-                }, {
-                    "name": "_nonce",
-                    "type": "uint256"
-                }, {
-                    "name": "_v",
-                    "type": "uint8"
-                }, {
-                    "name": "_r",
-                    "type": "bytes32"
-                }, {
-                    "name": "_s",
-                    "type": "bytes32"
-                }],
-                "name": "quickConvertPrioritized",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": true,
-                "stateMutability": "payable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "name": "connectorTokens",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_fromToken",
-                    "type": "address"
-                }, {
-                    "name": "_toToken",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }],
-                "name": "getReturn",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_newOwner",
-                    "type": "address"
-                }],
-                "name": "transferTokenOwnership",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_disable",
-                    "type": "bool"
-                }],
-                "name": "disableConversions",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_extensions",
-                    "type": "address"
-                }],
-                "name": "setExtensions",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "extensions",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_fromToken",
-                    "type": "address"
-                }, {
-                    "name": "_toToken",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "name": "_minReturn",
-                    "type": "uint256"
-                }],
-                "name": "convertInternal",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_amount",
-                    "type": "uint256"
-                }],
-                "name": "getConversionFeeAmount",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [],
-                "name": "acceptTokenOwnership",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "converterType",
-                "outputs": [{
-                    "name": "",
-                    "type": "string"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_token",
-                    "type": "address"
-                }, {
-                    "name": "_weight",
-                    "type": "uint32"
-                }, {
-                    "name": "_enableVirtualBalance",
-                    "type": "bool"
-                }],
-                "name": "addConnector",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_token",
-                    "type": "address"
-                }, {
-                    "name": "_to",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }],
-                "name": "withdrawFromToken",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "newManager",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "manager",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [],
-                "name": "clearQuickBuyPath",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_connectorToken",
-                    "type": "address"
-                }, {
-                    "name": "_disable",
-                    "type": "bool"
-                }],
-                "name": "disableConnectorPurchases",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "version",
-                "outputs": [{
-                    "name": "",
-                    "type": "string"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "conversionFee",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint32"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_token",
-                    "type": "address"
-                }, {
-                    "name": "_to",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }],
-                "name": "withdrawTokens",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_fromToken",
-                    "type": "address"
-                }, {
-                    "name": "_toToken",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "name": "_minReturn",
-                    "type": "uint256"
-                }],
-                "name": "change",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "connectorTokenCount",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint16"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_connectorToken",
-                    "type": "address"
-                }, {
-                    "name": "_sellAmount",
-                    "type": "uint256"
-                }],
-                "name": "getSaleReturn",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_fromToken",
-                    "type": "address"
-                }, {
-                    "name": "_toToken",
-                    "type": "address"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "name": "_minReturn",
-                    "type": "uint256"
-                }],
-                "name": "convert",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [],
-                "name": "acceptOwnership",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_disable",
-                    "type": "bool"
-                }],
-                "name": "disableTokenTransfers",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "owner",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "getQuickBuyPathLength",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "maxConversionFee",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint32"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_connectorToken",
-                    "type": "address"
-                }, {
-                    "name": "_depositAmount",
-                    "type": "uint256"
-                }],
-                "name": "getPurchaseReturn",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "convertibleTokenCount",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint16"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "conversionsEnabled",
-                "outputs": [{
-                    "name": "",
-                    "type": "bool"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [],
-                "name": "acceptManagement",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_path",
-                    "type": "address[]"
-                }],
-                "name": "setQuickBuyPath",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "newOwner",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_connectorToken",
-                    "type": "address"
-                }],
-                "name": "getConnectorBalance",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_newManager",
-                    "type": "address"
-                }],
-                "name": "transferManagement",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "name": "quickBuyPath",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_conversionFee",
-                    "type": "uint32"
-                }],
-                "name": "setConversionFee",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_path",
-                    "type": "address[]"
-                }, {
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "name": "_minReturn",
-                    "type": "uint256"
-                }],
-                "name": "quickConvert",
-                "outputs": [{
-                    "name": "",
-                    "type": "uint256"
-                }],
-                "payable": true,
-                "stateMutability": "payable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [{
-                    "name": "_tokenIndex",
-                    "type": "uint16"
-                }],
-                "name": "convertibleToken",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "constant": false,
-                "inputs": [{
-                    "name": "_newOwner",
-                    "type": "address"
-                }],
-                "name": "transferOwnership",
-                "outputs": [],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "function"
-            }, {
-                "constant": true,
-                "inputs": [],
-                "name": "token",
-                "outputs": [{
-                    "name": "",
-                    "type": "address"
-                }],
-                "payable": false,
-                "stateMutability": "view",
-                "type": "function"
-            }, {
-                "inputs": [{
-                    "name": "_token",
-                    "type": "address"
-                }, {
-                    "name": "_extensions",
-                    "type": "address"
-                }, {
-                    "name": "_maxConversionFee",
-                    "type": "uint32"
-                }, {
-                    "name": "_connectorToken",
-                    "type": "address"
-                }, {
-                    "name": "_connectorWeight",
-                    "type": "uint32"
-                }],
-                "payable": false,
-                "stateMutability": "nonpayable",
-                "type": "constructor"
-            }, {
-                "payable": true,
-                "stateMutability": "payable",
-                "type": "fallback"
-            }, {
-                "anonymous": false,
-                "inputs": [{
-                    "indexed": true,
-                    "name": "_fromToken",
-                    "type": "address"
-                }, {
-                    "indexed": true,
-                    "name": "_toToken",
-                    "type": "address"
-                }, {
-                    "indexed": true,
-                    "name": "_trader",
-                    "type": "address"
-                }, {
-                    "indexed": false,
-                    "name": "_amount",
-                    "type": "uint256"
-                }, {
-                    "indexed": false,
-                    "name": "_return",
-                    "type": "uint256"
-                }, {
-                    "indexed": false,
-                    "name": "_conversionFee",
-                    "type": "int256"
-                }, {
-                    "indexed": false,
-                    "name": "_currentPriceN",
-                    "type": "uint256"
-                }, {
-                    "indexed": false,
-                    "name": "_currentPriceD",
-                    "type": "uint256"
-                }],
-                "name": "Conversion",
-                "type": "event"
-            }, {
-                "anonymous": false,
-                "inputs": [{
-                    "indexed": false,
-                    "name": "_prevFee",
-                    "type": "uint32"
-                }, {
-                    "indexed": false,
-                    "name": "_newFee",
-                    "type": "uint32"
-                }],
-                "name": "ConversionFeeUpdate",
-                "type": "event"
-            }, {
-                "anonymous": false,
-                "inputs": [{
-                    "indexed": true,
-                    "name": "_prevManager",
-                    "type": "address"
-                }, {
-                    "indexed": true,
-                    "name": "_newManager",
-                    "type": "address"
-                }],
-                "name": "ManagerUpdate",
-                "type": "event"
-            }, {
-                "anonymous": false,
-                "inputs": [{
-                    "indexed": true,
-                    "name": "_prevOwner",
-                    "type": "address"
-                }, {
-                    "indexed": true,
-                    "name": "_newOwner",
-                    "type": "address"
-                }],
-                "name": "OwnerUpdate",
-                "type": "event"
-            }];
-
-            var TokenABI = [
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "name",
-                    "outputs": [{
-                        "name": "",
-                        "type": "string"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_spender",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_value",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "approve",
-                    "outputs": [{
-                        "name": "success",
-                        "type": "bool"
-                    }],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "totalSupply",
-                    "outputs": [{
-                        "name": "",
-                        "type": "uint256"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "decimals",
-                    "outputs": [{
-                        "name": "",
-                        "type": "uint8"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "version",
-                    "outputs": [{
-                        "name": "",
-                        "type": "string"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "standard",
-                    "outputs": [{
-                        "name": "",
-                        "type": "string"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_token",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_to",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_amount",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "withdrawTokens",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [{
-                        "name": "",
-                        "type": "address"
-                    }],
-                    "name": "balanceOf",
-                    "outputs": [{
-                        "name": "",
-                        "type": "uint256"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [],
-                    "name": "acceptOwnership",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "owner",
-                    "outputs": [{
-                        "name": "",
-                        "type": "address"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "symbol",
-                    "outputs": [{
-                        "name": "",
-                        "type": "string"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "transfersEnabled",
-                    "outputs": [{
-                        "name": "",
-                        "type": "bool"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [],
-                    "name": "newOwner",
-                    "outputs": [{
-                        "name": "",
-                        "type": "address"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": true,
-                    "inputs": [{
-                            "name": "",
-                            "type": "address"
-                        },
-                        {
-                            "name": "",
-                            "type": "address"
-                        }
-                    ],
-                    "name": "allowance",
-                    "outputs": [{
-                        "name": "",
-                        "type": "uint256"
-                    }],
-                    "payable": false,
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                        "name": "_newOwner",
-                        "type": "address"
-                    }],
-                    "name": "transferOwnership",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "inputs": [{
-                            "name": "_name",
-                            "type": "string"
-                        },
-                        {
-                            "name": "_symbol",
-                            "type": "string"
-                        },
-                        {
-                            "name": "_decimals",
-                            "type": "uint8"
-                        }
-                    ],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "constructor"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                        "indexed": false,
-                        "name": "_token",
-                        "type": "address"
-                    }],
-                    "name": "NewSmartToken",
-                    "type": "event"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                        "indexed": false,
-                        "name": "_amount",
-                        "type": "uint256"
-                    }],
-                    "name": "Issuance",
-                    "type": "event"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                        "indexed": false,
-                        "name": "_amount",
-                        "type": "uint256"
-                    }],
-                    "name": "Destruction",
-                    "type": "event"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                            "indexed": true,
-                            "name": "_from",
-                            "type": "address"
-                        },
-                        {
-                            "indexed": true,
-                            "name": "_to",
-                            "type": "address"
-                        },
-                        {
-                            "indexed": false,
-                            "name": "_value",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "Transfer",
-                    "type": "event"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                            "indexed": true,
-                            "name": "_owner",
-                            "type": "address"
-                        },
-                        {
-                            "indexed": true,
-                            "name": "_spender",
-                            "type": "address"
-                        },
-                        {
-                            "indexed": false,
-                            "name": "_value",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "Approval",
-                    "type": "event"
-                },
-                {
-                    "anonymous": false,
-                    "inputs": [{
-                            "indexed": true,
-                            "name": "_prevOwner",
-                            "type": "address"
-                        },
-                        {
-                            "indexed": true,
-                            "name": "_newOwner",
-                            "type": "address"
-                        }
-                    ],
-                    "name": "OwnerUpdate",
-                    "type": "event"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                        "name": "_disable",
-                        "type": "bool"
-                    }],
-                    "name": "disableTransfers",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_to",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_amount",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "issue",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_from",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_amount",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "destroy",
-                    "outputs": [],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_to",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_value",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "transfer",
-                    "outputs": [{
-                        "name": "success",
-                        "type": "bool"
-                    }],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                },
-                {
-                    "constant": false,
-                    "inputs": [{
-                            "name": "_from",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_to",
-                            "type": "address"
-                        },
-                        {
-                            "name": "_value",
-                            "type": "uint256"
-                        }
-                    ],
-                    "name": "transferFrom",
-                    "outputs": [{
-                        "name": "success",
-                        "type": "bool"
-                    }],
-                    "payable": false,
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                }
-            ]
-
-            if (typeof web3 !== 'undefined') {
-                web3 = new Web3(web3.currentProvider);
-            } else {
-                web3 = new Web3(new Web3.providers.HttpProvider(
-                    'https://mainnet.infura.io/wyKA0WjMF9iAVEwoo8vU'));
-            }
-
-            var converterInstance = new web3.eth.Contract(ConverterABI, converterAddress);
-            var tokenPEGInstance = new web3.eth.Contract(TokenABI, PEG_address);
-
-            function getPrice() {
-                var totalSupply = 0;
-                var conBalance = 0;
-                converterInstance.methods.getConnectorBalance(BNT_address).call()
-                    .then(res => {
-                        conBalance = res;
-                        return tokenPEGInstance.methods.totalSupply().call();
-                    })
-                    .then(total => {
-                        totalSupply = (total / 1e18);
-                        $.get('https://min-api.cryptocompare.com/data/price?fsym=BNT&tsyms=USD,ETH', {},
-                            (data) => {
-                                let cap = (conBalance / 1e18 / 0.07) * data.USD;
-                                let price = formatCurrency((cap / totalSupply));
-                                $(".price").find(".value").html(price);
-                                setTimeout(getPrice, 30000);
-                            });
-                    })
-                    .catch(err => {
-                        setTimeout(getPrice, 30000);
-                    })
-            }
-
-            getPrice();
-
-        })
+    <script>
+        $('.nav-link').click(function() {
+            var sectionTo = $(this).attr('href');
+            $('html, body').animate({
+            scrollTop: $(sectionTo).offset().top
+            }, 1500);
+        });
     </script>
-
 </body>
 
 </html>
